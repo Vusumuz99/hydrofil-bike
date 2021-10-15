@@ -1,94 +1,148 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>Navbar</h1>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container-fluid">
-          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-bicycle" viewBox="0 0 16 16">
-            <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"/>
-          </svg>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"></a>
-              </li>
-              <li class="nav-item dropdown">
-                
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-bicycle"
+                viewBox="0 0 16 16">
+                <path
+                    d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z" />
+            </svg>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled"></a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled"></a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"></button>
-            </form>
-          </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"></button>
+                </form>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<br><br>
-    
-<div class="container">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <br><br>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="http://cdn.shopify.com/s/files/1/0027/8387/1076/products/d-product-manta5-hydrofoiler-xe-1-blair-tauranga_be5d5eb8-dc53-4c99-8d0d-17587b872123.jpg" class="d-block w-100" alt="..."height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="https://s3.amazonaws.com/images.gearjunkie.com/uploads/2021/04/manta-5-xe-1-1.jpg" class="d-block w-100" alt="..."height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.startupselfie.net/wp-content/uploads/2021/04/Manta5-Hydrofoil-e-Bike.jpg" class="d-block w-100" alt="..."height="500a">
-          </div>
+    <div class="container">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="http://cdn.shopify.com/s/files/1/0027/8387/1076/products/d-product-manta5-hydrofoiler-xe-1-blair-tauranga_be5d5eb8-dc53-4c99-8d0d-17587b872123.jpg"
+                        class="d-block w-100" alt="..." height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://s3.amazonaws.com/images.gearjunkie.com/uploads/2021/04/manta-5-xe-1-1.jpg"
+                        class="d-block w-100" alt="..." height="500">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.startupselfie.net/wp-content/uploads/2021/04/Manta5-Hydrofoil-e-Bike.jpg"
+                        class="d-block w-100" alt="..." height="500a">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-</div>
-<br><br>
-
-<div class="container">
-<div class="card" style="width: 18rem;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrRJbBe2-r5-2YuKyHF7YCs-edrSnWHMNBZg&usqp=CAU" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">HYDROFOIL BIKE</p>
     </div>
-  </div>
-</div>
+    <br><br>
 
+    <div class="container">
 
-  </body>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.startupselfie.net/wp-content/uploads/2021/04/Manta5-Water-Bike.jpg" class="card-img-top" alt="..."height="280">
+                    <div class="card-body">
+                        
+                        <p class="card-text">The Hydrofoiler XE-1 opens up a world of water-based adventure for those who don’t have the space for a boat or other craft, nor a trailer to bring such a craft to the water. The XE-1 dismantles and loads into your car, and is easy to reassemble right at the waterside. You can even mount it on your roof rails. When you get used to the system, you can assemble it within two minutes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://odditymall.com/includes/content/this-water-bicycle-is-a-hydrofoil-e-bike-thumb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        
+                        <p class="card-text">But this new water bicycle reinvents the way we can ride our bicycle on the water. It's a hydrofoil watercraft which means as you pedal the bike it will start to hover above the water, making it easier to pedal than it would normally be.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://i.dailymail.co.uk/1s/2020/01/08/14/23147956-7864925-The_company_say_the_bike_will_help_to_change_both_cycling_and_wa-a-1_1578492583903.jpg" class="card-img-top" alt="..."height="280">
+                    <div class="card-body">
+                        
+                        <p class="card-text">The company say the bike will help to change both cycling and watersport - with riders able to take it on rivers, lakes, ocean shorelines and more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://resources.stuff.co.nz/content/dam/images/4/y/o/s/l/3/image.related.StuffLandscapeSixteenByNine.710x400.2192on.png/1602212660182.jpg?format=pjpg&optimize=medium" class="card-img-top" alt="..."height="280">
+                    <div class="card-body">
+                        
+                        <p class="card-text">“I am doing a little bit [of training]. I do a fair bit of mountain biking.
+
+                            “I actually have a training ride in the Bay of Plenty this weekend. So we are just starting to do some long range training as well. You want to be able to ride the distance beforehand and not go straight into the strait.”
+                            
+                            He believes it will be just like going for a three-hour bike ride</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+</body>
+
 </html>
